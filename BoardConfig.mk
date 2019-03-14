@@ -20,9 +20,6 @@
 
 DEVICE_PATH := device/xiaomi/gemini
 
-# Allow Missing Dependencies
-ALLOW_MISSING_DEPENDENCIES=true
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := gemini
 
