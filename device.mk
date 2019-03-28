@@ -179,6 +179,7 @@ $(call inherit-product, $(LOCAL_PATH)/hidl.mk)
 # HIDL manifest
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/manifest.xml
+>>>>>>> 87694d21... Switch to wahoo perf stack
 
 # TFA calibration
 PRODUCT_PACKAGES += \
